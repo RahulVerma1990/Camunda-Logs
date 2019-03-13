@@ -1,4 +1,0 @@
-12-Mar-2019 17:34:17.258 FINE [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
-12-Mar-2019 17:34:17.259 FINE [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
-12-Mar-2019 17:34:17.259 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
-12-Mar-2019 17:34:17.259 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'CSRF'
