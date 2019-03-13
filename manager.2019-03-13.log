@@ -1,0 +1,7 @@
+13-Mar-2019 11:29:07.536 FINE [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+13-Mar-2019 11:29:07.537 FINE [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+13-Mar-2019 11:29:07.537 FINE [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'CSRF'
+13-Mar-2019 11:29:23.183 FINE [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+13-Mar-2019 11:29:23.184 FINE [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+13-Mar-2019 11:29:23.184 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+13-Mar-2019 11:29:23.185 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'CSRF'

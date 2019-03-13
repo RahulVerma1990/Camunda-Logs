@@ -1,0 +1,128 @@
+13-Mar-2019 11:29:07.376 FINE [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+13-Mar-2019 11:29:07.376 FINE [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+13-Mar-2019 11:29:07.427 FINE [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+13-Mar-2019 11:29:07.428 FINE [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+13-Mar-2019 11:29:07.446 FINE [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+13-Mar-2019 11:29:07.446 FINE [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Compression Filter'
+13-Mar-2019 11:29:07.447 FINE [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Request Dumper Filter'
+13-Mar-2019 11:29:07.447 FINE [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+13-Mar-2019 11:29:07.448 FINE [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Timing Filter'
+13-Mar-2019 11:29:07.457 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+13-Mar-2019 11:29:07.457 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+13-Mar-2019 11:29:07.476 FINE [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+13-Mar-2019 11:29:07.477 FINE [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+13-Mar-2019 11:29:07.493 FINE [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+13-Mar-2019 11:29:07.493 FINE [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+13-Mar-2019 11:29:07.500 FINE [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+13-Mar-2019 11:29:07.500 FINE [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Engines Filter'
+13-Mar-2019 11:29:07.502 FINE [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+13-Mar-2019 11:29:07.502 FINE [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'CsrfPreventionFilter'
+13-Mar-2019 11:29:07.503 FINE [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'SecurityFilter'
+13-Mar-2019 11:29:07.504 FINE [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Authentication Filter'
+13-Mar-2019 11:29:07.505 FINE [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'EmptyBodyFilter'
+13-Mar-2019 11:29:07.506 FINE [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'CacheControlFilter'
+13-Mar-2019 11:29:07.541 FINE [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+13-Mar-2019 11:29:07.541 FINE [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+13-Mar-2019 11:29:22.452 FINE [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+13-Mar-2019 11:29:22.458 FINE [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+13-Mar-2019 11:29:22.459 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+13-Mar-2019 11:29:22.575 FINE [main] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'org.camunda.bpm.engine.rest.impl.FetchAndLockContextListener'
+13-Mar-2019 11:29:22.575 FINE [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+13-Mar-2019 11:29:22.582 FINE [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+13-Mar-2019 11:29:22.582 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'CorsFilter'
+13-Mar-2019 11:29:22.585 SEVERE [main] org.apache.catalina.core.StandardContext.filterStart Exception starting filter [CorsFilter]
+ javax.servlet.ServletException: It is not allowed to configure supportsCredentials=[true] when allowedOrigins=[*]
+	at org.apache.catalina.filters.CorsFilter.parseAndStore(CorsFilter.java:759)
+	at org.apache.catalina.filters.CorsFilter.init(CorsFilter.java:183)
+	at javax.servlet.GenericFilter.init(GenericFilter.java:61)
+	at org.apache.catalina.core.ApplicationFilterConfig.initFilter(ApplicationFilterConfig.java:270)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:251)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:102)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4491)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1141)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1876)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1053)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:428)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:969)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1429)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:944)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:261)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+13-Mar-2019 11:29:22.585 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+13-Mar-2019 11:29:22.585 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'EmptyBodyFilter'
+13-Mar-2019 11:29:22.586 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'CacheControlFilter'
+13-Mar-2019 11:29:22.588 FINE [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+13-Mar-2019 11:29:22.588 FINE [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+13-Mar-2019 11:29:22.588 FINE [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'EmptyBodyFilter'
+13-Mar-2019 11:29:22.589 FINE [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'CacheControlFilter'
+13-Mar-2019 11:29:22.627 FINE [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+13-Mar-2019 11:29:22.628 FINE [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+13-Mar-2019 11:29:22.628 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+13-Mar-2019 11:29:22.755 FINE [main] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'org.camunda.bpm.cockpit.impl.web.bootstrap.CockpitContainerBootstrap'
+13-Mar-2019 11:29:22.755 FINE [main] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'org.camunda.bpm.admin.impl.web.bootstrap.AdminContainerBootstrap'
+13-Mar-2019 11:29:22.755 FINE [main] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'org.camunda.bpm.tasklist.impl.web.bootstrap.TasklistContainerBootstrap'
+13-Mar-2019 11:29:22.756 FINE [main] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'org.camunda.bpm.welcome.impl.web.bootstrap.WelcomeContainerBootstrap'
+13-Mar-2019 11:29:22.756 FINE [main] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'org.camunda.bpm.webapp.impl.security.filter.util.HttpSessionMutexListener'
+13-Mar-2019 11:29:22.756 FINE [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+13-Mar-2019 11:29:22.770 FINE [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+13-Mar-2019 11:29:22.770 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Engines Filter'
+13-Mar-2019 11:29:22.771 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+13-Mar-2019 11:29:22.771 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'CsrfPreventionFilter'
+13-Mar-2019 11:29:22.771 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'SecurityFilter'
+13-Mar-2019 11:29:23.144 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Authentication Filter'
+13-Mar-2019 11:29:23.144 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'EmptyBodyFilter'
+13-Mar-2019 11:29:23.145 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'CacheControlFilter'
+13-Mar-2019 11:29:23.161 FINE [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+13-Mar-2019 11:29:23.161 FINE [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+13-Mar-2019 11:29:23.161 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+13-Mar-2019 11:29:23.218 FINE [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+13-Mar-2019 11:29:23.899 FINE [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+13-Mar-2019 11:29:23.899 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+13-Mar-2019 11:29:24.045 FINE [main] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'listeners.ContextListener'
+13-Mar-2019 11:29:24.046 FINE [main] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'listeners.SessionListener'
+13-Mar-2019 11:29:24.047 FINE [main] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'async.AsyncStockContextListener'
+13-Mar-2019 11:29:24.048 FINE [main] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'websocket.drawboard.DrawboardContextListener'
+13-Mar-2019 11:29:24.048 FINE [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+13-Mar-2019 11:29:24.048 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+13-Mar-2019 11:29:24.049 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+13-Mar-2019 11:29:24.049 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@774c5e5c')
+13-Mar-2019 11:29:24.050 FINE [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+13-Mar-2019 11:29:24.050 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Compression Filter'
+13-Mar-2019 11:29:24.052 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Request Dumper Filter'
+13-Mar-2019 11:29:24.053 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+13-Mar-2019 11:29:24.054 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Timing Filter'
+13-Mar-2019 11:29:24.068 FINE [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+13-Mar-2019 11:29:24.068 FINE [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+13-Mar-2019 11:29:24.068 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
